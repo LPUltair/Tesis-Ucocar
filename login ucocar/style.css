@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-image: url("Imagen/back.JPG");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+.inicio {
+    width: 400px;
+    height: 380px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+.inicio h1 {
+    font-family: 'Passion One';
+    font-size: 2rem;
+    text-align: center;
+    color: #c1c4c8;
+    background-color: rgb(31, 51, 233);
+    text-transform: uppercase;
+}
+
+.inicio a[href="login.php"] {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(31, 51, 233);
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+.inicio a[href="register.php"] {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: rgb(31, 51, 233);
+    color: white;
+    border: none;
+    margin: 20px auto;
+    text-decoration: none;
+}
+    
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 22px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #fdfdfd;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 50px 0;
+	padding: 50px;
+	background-image: url("Imagen/back.JPG");
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #4a536e;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+ 
+.Registro {
+    width: 400px;
+    height: 380px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+
+#fondo  {
+    background-image: url("Imagen/back.JPG");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }
